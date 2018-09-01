@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0
+}
+@media screen and (max-width:768px) {
+    img ,.interests{ 
+        margin-right: auto !important;
+        margin-left :auto  !important;
+    }
+    
+}  
+
+#img{
+  
+    box-shadow: 0 2px 2px rgba(0, 0, 4, .2);
+}
+#img2{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -102px
+}
+.social{
+    margin-top: 25px;
+    font-size: 1.7em
+}
+
+#hamza{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    color: #444;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 50px
+}
+#hamza:hover{
+text-decoration: underline
+}
+#desc{
+    color: #666;
+    font-size: 1.8em;
+    text-align: center;
+    position: relative;
+   margin-top: -50px;
+    text-transform: lowercase;
+    
+}
+
+.col2 h1{ color: #2196F3;
+   
+}
+.col2 p{
+    font-size: 16px
+    }
+.heading {
+font-family: 'Merriweather', serif;
+color: #2196F3;
+margin-left: 100px
+}
+.interests i,.interests p {
+    margin-left: 100px
+   }
+   .img-responsive{
+       margin:10px;
+       border-radius: 50% 20%;
+       
+}
+.interests i:hover {
+    color: #2196F3;
+    transform: rotate(360deg);
+    transition: all .60s;
+}
+.interests p{
+    color: #2196F3;
+    font-size: 1.2em;
+    margin-top: 20px
+}
+
+
+    
